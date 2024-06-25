@@ -1,0 +1,35 @@
+body{
+    font-family:"Arial","Meiryo",sans-serif;
+    font-size: 20px;
+    text-align:center;
+   
+}
+/* 全体のフォント指定 */
+#first-heading{
+        font-family: "Josefin Sans", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: <weight>;
+        font-style: normal;
+        font-size:2em;
+        text-shadow: 1px 1px 2px gray;
+        letter-spacing: 1.2em;
+        border-bottom: solid 3px rgb(115, 115, 114);
+            }
+     /* webフォントを使用 フォントサイズ確認 文字間隔 */
+    #color-blue{
+        color: skyblue;
+    }
+    #color-pink{
+        color:rgb(255, 192, 203);
+
+    }
+    .woman{
+        color:rgb(255, 192, 203);
+    }
+
+    .man{
+        color: skyblue; 
+    }
+   #basic{
+    font-weight: bold;
+   }
