@@ -2,6 +2,14 @@ h1,p,body {
    margin: 0;
 }
 
+main p{
+    font-size: 20px;
+}
+
+main a{
+    font-size: 20px;  
+}
+
 main{
     margin: 10px;
 }
@@ -22,42 +30,48 @@ h1{
     border: solid 3px rgb(238, 204, 204); 
     margin: 10px,15px;
     padding: 10px 15px;
-    margin: 10px 0;
+    margin: 20px 0;
     flex: 0 0 25%;
     text-align: center;
-    
-    
-}
-h2{
+    }
+.contents >h2{
     font-size: 25px;
     border-bottom: dotted 3px rgb(236, 122, 122);
+     }
+
+.contents >h2::before{
+    content: "●";
+    color: rgb(239, 111, 139)
+    }
     
-}
-h2::before{
-  content: "●";
-  color: rgb(239, 111, 139);
-}
 
 div p:nth-of-type(2)::first-letter {
      color: rgb(97, 206, 249);
-    font-weight: bold;
+     font-weight: bold;
 }
 
-img{
+div img{
     margin: 10px 0px;
     width: 70%;
 }
 
-footer{
+footer {
   background-color: rgb(244, 79, 79);  
   text-align: center;
   color: rgb(255, 255, 255);
+    }
+
+ a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+     }
+
+a:visited{
+  color: rgb(193, 234, 251);  
 }
-a:link{
-    color: rgb(193, 234, 251);
-}
+
 a:hover{
-    color: rgb(245, 178, 168);
+  color: rgb(245, 178, 168);  
 }
 
 @media screen and (max-width: 768px){
@@ -69,5 +83,4 @@ p{
 }
 h2{
     font-size: 30px;
-}
 }
